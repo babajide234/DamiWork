@@ -76,6 +76,18 @@
             margin-top: 70px;
             text-align: left;
         }
+        .section_C{
+            margin-top: 70px;
+            text-align: left;
+        }
+        .section_D{
+            margin-top: 70px;
+            text-align: left;
+        }
+        .section_E{
+            margin-top: 70px;
+            text-align: left;
+        }
         .section_A h2{
             text-align: left;
             text-decoration: underline;
@@ -85,6 +97,21 @@
             text-align: left;
             text-decoration: underline;
 
+        }
+        .section_C h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+        .section_D h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+        .section_E h2{
+            text-align: left;
+            text-decoration: underline;
+        }
+        .section_E p{
+            font-size: 13px;
         }
         .section_A .input_group{
             display: flex;
@@ -100,24 +127,100 @@
             outline: none;
             border-bottom: 1px solid #c3c3c3;
         }
+        .section_E .input_group input{
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #c3c3c3;
+        }
         .section_B h5{
             margin-top: 50px;
+        }
+        .section_C h5{
+            font-size: 17px;
+            margin: 50px 0px;
+            text-decoration: underline;
+        }
+        .section_D h5{
+            font-size: 17px;
+            margin: 50px 0px;
+            text-decoration: underline;
         }
         .section_B p{
             margin: 20px;
         }
+        .section_C p{
+            margin: 20px;
+        }
+        .section_D p{
+            margin: 20px;
+        }
+        .section_E p{
+            margin: 20px;
+        }
         .section_B ol li {
+            margin: 20px;
+        }
+        .section_C ol li {
+            margin: 20px;
+        }
+        .section_D ol li {
             margin: 20px;
         }
         .section_B table{
             margin-top: 50px;
             border: 1px solid #333;
         }
+        .section_C table{
+            margin-top: 50px;
+            border: 1px solid #333;
+        }
         .section_B table thead th{
+            padding: 10px;
+        }
+        .section_C table thead th{
             padding: 10px;
         }
         .section_B table input{
             padding: 10px;
+        }
+        .section_C table input{
+            padding: 10px;
+        }
+        .section_C table input{
+            padding: 10px;
+        }
+        .section_C .form_group{
+            padding-left: 50px;
+        }
+        .section_C .form_group ol{
+            padding-left: 50px;
+        }
+        .section_C .form_group table{
+           margin: 0 auto;
+        }
+        .section_C .form_group div{
+            display: flex;
+            margin: 20px 0px;
+        }
+        .section_C .form_group div label{
+            padding-left: 20px;
+        }
+        .section_D .form_group{
+            padding-left: 50px;
+        }
+        .section_D .form_group ol{
+            padding-left: 50px;
+        }
+        .section_D .form_group table{
+           margin: 0 auto;
+        }
+        .section_D .form_group div{
+            display: flex;
+            margin: 20px 0px;
+        }
+        .section_D .form_group div label{
+            padding-left: 20px;
         }
         </style>
 </head>
@@ -242,6 +345,163 @@
                     </tbody>
                 </table>
             </div>
+            <div class="section_C">
+                <h2 class="">Section C – Parent Income Information</h2>
+                <p class="">Your parents MUST provide official 2020 federal tax information to the Office of Financial Assistance. Each parent listed on the FAFSA and in the Household Information section must provide information.</p>
+                <ol class="">
+                    <li>Complete the IRS Data Retrieval Tool (DRT) on the FAFSA application OR</li>
+                    <li>Submit a copy of the signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3 sent to the IRS OR
+                    </li>
+                    <li>For those who did not file a 2020 IRS Federal Tax Return, submit a Verification of Non-Filing letter obtained from the IRS and a copy of all W-2/1099 forms if wages were earned.</li>
+
+                </ol>
+                <p class="">ONLY <b>one (1) box should be checked on this page.</b><br>
+                    Please check the appropriate box and submit the requested documents.
+                    </p>
+                <h5 class="">2020 TAX FILERS</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I have successfully linked the IRS Data Retrieval Tool to the FAFSA.</label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I have attached a copy of my signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3 sent to the IRS with the student’s UIN on all pages.</label>
+                    </div>
+                </div>
+
+                <h5>2020 TAX FILERS with special circumstances</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I filed a 2020 amended tax return and have submitted (1) a signed 1040X and (2) either have completed the FAFSA IRS Data Retrieval Tool or submitted a copy of my signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3.</label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I filed a foreign tax return and have submitted that return with the Earnings, AGI, and Taxes Paid translated to US dollars, along with wage statements.
+                        </label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I am a victim of tax related identity theft and have notified the IRS. Attached is the Tax Return Database View Transcript for 2020 and a signed, dated statement indicating the IRS is aware of the tax related identity theft.</label>
+                    </div>
+                </div>
+
+                <h5 class="">2020 NON-TAX FILERS</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I did earn income from work in 2020, but I did not and was not required to file a 2020 IRS Federal Tax Return per the IRS. All income sources/amounts are listed below.
+                            <b>I have attached:</b>
+                            </label>
+                    </div>
+                    
+                    <ol>
+                        <li>Copies of 2020 W-2 forms/1099 Misc. forms AND</li>
+                        <li>Verification of Non-Filing Letter from the IRS</li>
+                    </ol>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Individual’s Name</th>
+                                <th>Name of Employer</th>
+                                <th>Amount of 2020 Income</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="">
+                                    <input type="text">
+                                </td>
+                                <td class="">
+                                    <input type="text">
+                                </td>
+                                <td class="">
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I did not earn income from wages in 2020. I did not and was not required to file a 2020 IRS Federal Tax Return per the IRS.
+                            </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section_D">
+                <h2 class="">Section D – Student Income Information</h2>
+                <p class="">You MUST provide official 2020 federal tax information to the Office of Financial Assistance.</p>
+                <ol>
+                    <li>Complete the IRS Data Retrieval Tool on the FAFSA application OR</li>
+                    <li>Submit a copy of the signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3 sent to the IRS OR</li>
+                    <li>For those who did not file a 2020 IRS Federal Tax Return, submit a copy of all W-2/1099 forms if wages were earned.</li>
+                </ol>
+                <p>
+                    ONLY <b>one (1) box should be checked on this page.</b><br>Please check the appropriate box and submit the requested documents.
+                </p>
+                <h5 class="">2020 TAX FILERS</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I have successfully linked the IRS Data Retrieval Tool to the FAFSA.</label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I have attached a copy of my signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3 sent to the IRS with my UIN on all pages.</label>
+                    </div>
+                </div>
+                <h5 class="">2020 TAX FILERS with special circumstances</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I filed a 2020 amended tax return and have submitted (1) a signed 1040X and (2) either have completed the FAFSA IRS Data Retrieval Tool or submitted a copy of my signed 2020 IRS Federal Tax Return including IRS Schedules 1, 2, and 3.</label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I filed a foreign tax return and have submitted that return with the Earnings, AGI, and Taxes Paid translated to US dollars, along with wage statements.
+                            I am a victim of tax related identity theft and have notified the IRS. Attached is the Tax Return
+                        </label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Database View Transcript for 2020 and a signed, dated statement indicating the IRS is aware of the tax related identity theft.</label>
+                    </div>
+                </div>
+                <h5 class="">2020 NON-TAX FILERS</h5>
+                <div class="form_group">
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I did earn income from work in 2020, but I did not and was not required to file a 2020 IRS Federal
+                            Tax Return Per the IRS. All income sources/amounts are listed below.
+                            I have attached: Copies of 2020 W-2 forms/1099 Misc. forms
+                            </label>
+                    </div>
+                    <div class="">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I did not earn income from wages in 2020. I did not and was not required to file a 2020 IRS Federal Tax Return per the IRS.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="section_E">
+                <h2 class="">Section E – Student and Parent Signatures</h2>
+                <p class="">
+                    By signing this worksheet, I/we certify that all the information reported on this worksheet is correct to the best of our knowledge. If Office of Financial Assistance notices a discrepancy, I/we understand corrections to my FAFSA will be submitted directly to the U.S. Department of Education. Additionally, I/we understand that any such corrections may also warrant an adjustment to any financial aid that has already been offered for the 2022-23 academic year.
+                </p>
+                <div class="input_group">
+                    <input type="text" placeholder="Student Signature">
+                    <input type="date" placeholder="Date">
+                    <input type="text" placeholder="Parents Signature">
+                    <input type="date" placeholder="Date">
+                </div>
+                <p>
+                    <b>
+                        IMPORTANT: To avoid a delay in processing, please review to make sure that every question has been answered and that you have provided all additional documents per the instructions. Upload all documents to Enterprise Self-Service Student Requirements under the financial aid tab.
+                    </b>
+                </p>
+            </div>
+
         </main>
     </div>
 </body>
