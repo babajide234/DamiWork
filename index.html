@@ -222,6 +222,54 @@
         .section_D .form_group div label{
             padding-left: 20px;
         }
+        .container2 {  
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                ". . . ."
+                ". . . ."
+                ". . . .";
+            border:1px solid #333;
+            height: 300px;
+            margin-top: 20px;
+        }
+        .col{
+            border:1px solid #333;
+            padding: 10px;
+        }
+        .add { grid-area: add; }
+        .box{
+            display: flex;
+            align-items: flex-end;
+            position: relative;
+            
+        }
+        .box_container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                ". . . ."
+                ". . . ."
+                ". . . .";
+            height: 100px;
+            margin-top: 20px;
+        }
+        .box h5{
+            font-size: 14px;
+            margin-right: 10px;
+        }
+        .box span{
+            width: 100%;
+            position: absolute;
+            border-bottom:1px solid #c3c3c3 ;
+        }
         </style>
 </head>
 <body>
@@ -284,7 +332,7 @@
             </div>
             <div class="section_A">
                 <h2 class="">Section A – Student Information (Please print clearly)</h2>
-                <div class="input_group">
+                <!-- <div class="input_group">
                     <input type="text" placeholder="Last Name">
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="M.I.">
@@ -297,6 +345,47 @@
                 </div>
                 <div class="input_group">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Street Address"></textarea>
+                </div> -->
+                <div class="box_container">
+                    <div class="box">
+                        <h5 class="">Last Name: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <h5 class="">First Name: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <h5 class=""> M.I: </h5>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="box_container">
+                    <div class="box">
+                        <h5 class="">Phone Number: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <h5 class="">Street Address: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="box_container">
+                    <div class="box">
+                        <h5 class="">City: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <h5 class="">State: </h5>
+                        <span></span>
+                    </div>
+                    <div class="box">
+                        <h5 class="">Zip Code: </h5>
+                        <span></span>
+                    </div>
                 </div>
             </div>
             <div class="section_B">
