@@ -268,7 +268,27 @@
         .box span{
             width: 100%;
             position: absolute;
-            border-bottom:1px solid #c3c3c3 ;
+            border-bottom:1px solid #977373 ;
+        }
+        .table{
+            display: grid;
+            grid-template-columns: 30% 5% 20% 20% 25% ;
+            border-bottom:1px solid #c3c3c3;
+        }
+        .table_2{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom:1px solid #c3c3c3;
+            height: 70px;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+        }
+        .table_2 h5{
+            text-decoration: none !important;
+            margin: 0;
+        }
+        .table div{
+            padding-bottom: 5px;
         }
         </style>
 </head>
@@ -413,26 +433,127 @@
                 <h5 class="">Fill out the chart below – all fields must be completed.</h5>
                 <p>Write the names of all household members as defined above. If you need more space, attach a separate sheet.
                     Write in the name of the college for any household member listed (excluding parent(s)), who will be attending college at least half-time between July 1, 2022 and June 30, 2023, in a program that leads to a college degree/certificate. If the household member’s college is UIS, write their University Identification Number (UIN) in the box along with UIS listed as the college.</p>
-                <table >
-                    <thead>
-                        <tr>
-                            <th>Full Name</th>
-                            <th>Age</th>
-                            <th>Relationship</th>
-                            <th>Colledge</th>
-                            <th>Expected Colledge Graduation (Month and Year)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                        </tr>
-                    </tbody>
-                </table>
+
+                    <div class="table">
+                        <div class="">
+                            <h5>Full Name</h5>
+                        </div>
+                        <div class="">
+                            <h5>Age</h5>
+                        </div>
+                        <div class="">
+                            <h5>Relationship</h5>
+                        </div>
+                        <div class="">    
+                            <h5>Colledge</h5>
+                        </div>
+                        <div class="">
+                            <h5>Expected Colledge Graduation (Month and Year)</h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                        <div class="">    
+                            <h5></h5>
+                        </div>
+                        <div class="">
+                            <h5></h5>
+                        </div>
+                    </div>
+
             </div>
             <div class="section_C">
                 <h2 class="">Section C – Parent Income Information</h2>
@@ -489,34 +610,60 @@
                         <li>Copies of 2020 W-2 forms/1099 Misc. forms AND</li>
                         <li>Verification of Non-Filing Letter from the IRS</li>
                     </ol>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Individual’s Name</th>
-                                <th>Name of Employer</th>
-                                <th>Amount of 2020 Income</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="">
-                                    <input type="text">
-                                </td>
-                                <td class="">
-                                    <input type="text">
-                                </td>
-                                <td class="">
-                                    <input type="text">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                </div>
+
+                <div class="table_2">
+                    <div class="">
+                        <h5>Individual’s Name</h5>
+                    </div>
+                    <div class="">
+                        <h5>Name of Employer</h5>
+                    </div>
+                    <div class="">
+                        <h5>Amount of 2020 Income</h5>
+                    </div>
+                </div>
+                <div class="table_2">
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                </div>
+                <div class="table_2">
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                </div>
+                <div class="table_2">
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                    <div class="">
+                        <h5></h5>
+                    </div>
+                </div>
+                <div class="form_group">
                     <div class="">
                         <input type="checkbox" name="" id="">
                         <label for="">I did not earn income from wages in 2020. I did not and was not required to file a 2020 IRS Federal Tax Return per the IRS.
-                            </label>
+                        </label>
                     </div>
                 </div>
+                
 
             </div>
             <div class="section_D">
